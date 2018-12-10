@@ -23,3 +23,5 @@
 	$worker = new Worker('Дима', 1000, 25);
 	echo $worker->getsalary() * $worker->getAge();
 ?>
+<br>
+<a href="inheritance.php">inheritance</a>
